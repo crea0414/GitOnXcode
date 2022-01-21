@@ -17,5 +17,9 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         print("make 1st change here")
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        print("make 2ne change here")
+    }
 }
 
